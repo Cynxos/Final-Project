@@ -1,0 +1,79 @@
+/* src/assets/Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    background-color: #161616;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+  }
+  
+  .section-container {
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .calories-section label,
+  .activity-summary h2,
+  .workout-planner h2 {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .calories-section input[type="range"] {
+    width: 100%;
+  }
+  
+  .activity-summary input[type="number"],
+  .workout-planner input[type="text"] {
+    width: 20ch; /* Approx 20 characters width */
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+  .activity-summary div,
+  .workout-planner li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .workout-planner ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .workout-planner li {
+    justify-content: flex-start;
+  }
+  
+  .workout-planner li label {
+    margin-right: 10px;
+  }
+  
+  .quotes-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quote-container {
+    background-color: #3d3d3d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 48%;
+    text-align: center;
+  }
+  
+  .quote-container p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  

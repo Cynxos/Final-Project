@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2a2a2a; /* Adding a bit of hue to stand out */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #444; /* Dividing line */
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Ensure the text is bright white for visibility */
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-link {
+    margin-left: 20px;
+    color: #ddd; /* Slightly off-white for better contrast */
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+    color: #fff; /* Brighten the color on hover */
+  }
+  
